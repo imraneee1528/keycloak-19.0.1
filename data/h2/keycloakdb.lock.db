@@ -1,0 +1,6 @@
+#FileLock
+#Mon Sep 05 06:36:15 UTC 2022
+server=127.0.1.1\:44951
+hostName=docker
+method=file
+id=1830c5d28da2fbd6019e71f5a9208a348cdf58412ad
