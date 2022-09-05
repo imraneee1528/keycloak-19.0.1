@@ -28,6 +28,8 @@ Keycloak
     $ mv /opt/keycloak-19.0.1
 
     $ sudo chmod chmod +x /opt/keycloak-19.0.1
+    
+    $ cd /opt/keycloak-19.0.1
 
 # To try Keycloak out in development mode, run: 
 
