@@ -50,4 +50,12 @@ Keycloak
     $ bin/kc.sh start
 
    After the server boots, open https://server-ip:8443  in your web browser. The welcome page will indicate that the server is running.
+ #  Proxy Enable in dev mode 
+
+export KC_HOSTNAME=keycloak-new.mpower-social.com
+
+export KC_PROXY=edge
+
+bin/kc.sh start-dev  --http-relative-path /auth
+ 
 
